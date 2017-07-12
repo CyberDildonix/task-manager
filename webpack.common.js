@@ -34,6 +34,7 @@ const config = {
         new CleanWebpackPlugin(['dist']),
         new HTMLWebpackPlugin({
             title: 'Task Manager',
+            template: './src/app-shell.html'
         }),
     ]
 };

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "set NODE_ENV=dev && webpack",
-    "build:prod": "set NODE_ENV=prod && webpack"
+    "build:prod": "set NODE_ENV=prod && webpack",
+    "watch": "set NODE_ENV=dev && webpack-dev-server"
   },
   "keywords": [],
   "author": "",
