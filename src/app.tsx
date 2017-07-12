@@ -1,3 +1,1 @@
-let test: string = 'Test string';
-
-console.log(test);
+import * as appShall from './app-shell';
