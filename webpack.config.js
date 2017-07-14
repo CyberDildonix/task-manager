@@ -1,1 +1,1 @@
-module.exports = () => require(`./webpack.${ process.env.NODE_ENV.trim() }.js`);
+module.exports = () => require(`./webpack.${ process.env.NODE_ENV }.js`);
