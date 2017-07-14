@@ -17,7 +17,7 @@
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
-    "firebase-tools": "https://codeload.github.com/firebase/firebase-tools/tar.gz/09c320b38fbfbeb6ba0fcd85d017ea2c86a7be44",
+    "firebase-tools": "^3.9.1",
     "html-webpack-plugin": "^2.29.0",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",

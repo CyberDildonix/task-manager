@@ -8,4 +8,4 @@ script:
 install:
     - npm i -g firebase-tools
 after_success:
-    - firebase deploy --only hosting --token $FIREBASE_TOKEN
+    - firebase deploy --only hosting --token $FIREBASE_TOKEN --non-interactive
