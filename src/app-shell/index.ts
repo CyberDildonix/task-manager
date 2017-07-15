@@ -1,3 +1,3 @@
-import * as appShell from './app-shell';
+import { Test } from './app-shell';
 
-export default appShell;
+export { Test };

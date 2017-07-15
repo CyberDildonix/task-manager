@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "set NODE_ENV=dev && webpack",
+    "build": "set NODE_ENV=dev&&webpack",
     "build:prod": "NODE_ENV=prod && webpack",
-    "watch": "set NODE_ENV=dev && webpack-dev-server"
+    "watch": "set NODE_ENV=dev&&webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^8.0.13",
     "awesome-typescript-loader": "^3.2.1",
     "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.4",
