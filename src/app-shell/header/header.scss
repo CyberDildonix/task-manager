@@ -1,0 +1,13 @@
+@import '../../assets/scss/_main';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  @include container();
+  padding: 0 1rem;
+
+  &__logo {
+    cursor: default;
+    user-select: none;
+  }
+}
