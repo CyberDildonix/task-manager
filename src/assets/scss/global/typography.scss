@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../../fonts/icomoon.woff?hddh2v') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*="icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-add:before {
+  content: "\e900";
+}
+.icon-arrow_circle:before {
+  content: "\e901";
+}
+.icon-arrow-left:before {
+  content: "\e902";
+}
+.icon-arrow-right:before {
+  content: "\e903";
+}
+.icon-arrows-up:before {
+  content: "\e904";
+}
+.icon-check:before {
+  content: "\e905";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-edit:before {
+  content: "\e907";
+}
+.icon-global-list-arrow-down:before {
+  content: "\e908";
+}
+.icon-global-list-arrow-right:before {
+  content: "\e909";
+}
+.icon-list:before {
+  content: "\e90a";
+}
+.icon-minus:before {
+  content: "\e90b";
+}
+.icon-settings:before {
+  content: "\e90c";
+}
+.icon-statistics:before {
+  content: "\e90d";
+}
+.icon-timer:before {
+  content: "\e90e";
+}
+.icon-tomato-error:before {
+  content: "\e90f";
+}
+.icon-tomato-info:before {
+  content: "\e910";
+}
+.icon-tomato-success:before {
+  content: "\e911";
+}
+.icon-tomato-warning:before {
+  content: "\e912";
+}
+.icon-tomato:before {
+  content: "\e913";
+}
+.icon-trash:before {
+  content: "\e914";
+}
