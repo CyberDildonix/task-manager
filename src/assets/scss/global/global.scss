@@ -1,0 +1,13 @@
+@import '../_main';
+@import 'normalize';
+@import 'typography';
+
+html {
+  font-family: $font-global;
+}
+
+html,
+a {
+  color: #fff;
+}
+

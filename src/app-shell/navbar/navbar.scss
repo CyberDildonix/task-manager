@@ -1,0 +1,17 @@
+@import '../../assets/scss/_main';
+
+.navbar {
+  width: 33%;
+  max-width: 14.5rem;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1.25rem 0;
+  }
+
+  &__button {
+    text-decoration: none;
+  }
+}
